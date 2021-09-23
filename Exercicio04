@@ -2,11 +2,37 @@
 
 namespace listaExercicios02
 {
-    class Exercicio01
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    class Exercicio04
+	{
+		static void Main(string[] args)
+		{
+			decimal salarioAtual = 0M, taxaReajuste = 0M, salarioReajustado = 0M;
+			
+			Console.WriteLine("Por favor, informe o valor do salário a ser reajustado:");
+			salarioAtual = Convert.ToDecimal(Console.ReadLine());
+			
+			if (salarioAtual <= 2800)
+			{
+				taxaReajuste = 0.2M;
+				salarioReajustado = salarioAtual + (salarioAtual * taxaReajuste);
+			}
+			else if (salarioAtual > 2800 && salarioAtual <= 7000)
+			{
+				taxaReajuste = 0.15M;
+				salarioReajustado = salarioAtual + (salarioAtual * taxaReajuste);
+			}
+			else if (salarioAtual > 7000 && salarioAtual <= 15000)
+			{
+				taxaReajuste = 0.1M;
+				salarioReajustado = salarioAtual + (salarioAtual * taxaReajuste);
+			}
+			else
+			{
+				taxaReajuste = 0.05M;
+				salarioReajustado = salarioAtual + (salarioAtual * taxaReajuste);
+			}
+			
+			Console.WriteLine("O salário atual de {0:C2} recebeu um reajuste de {1:F2}% ({2:C2}) e a partir de agora será de {3:C2}.", salarioAtual, (taxaReajuste * 100), (salarioAtual * taxaReajuste), salarioReajustado); 
+		}
+	}
 }
