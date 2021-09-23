@@ -1,0 +1,11 @@
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.csprojAssemblyReference.cache
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.csproj.CoreCompileInputs.cache
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.AssemblyInfoInputs.cache
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.AssemblyInfo.cs
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/bin/Debug/netcoreapp2.2/listaExercicios02.deps.json
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/bin/Debug/netcoreapp2.2/listaExercicios02.runtimeconfig.json
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/bin/Debug/netcoreapp2.2/listaExercicios02.runtimeconfig.dev.json
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/bin/Debug/netcoreapp2.2/listaExercicios02.dll
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/bin/Debug/netcoreapp2.2/listaExercicios02.pdb
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.dll
+/home/gallo/Área de Trabalho/CSharpe_itau/listaExercicios02/obj/Debug/netcoreapp2.2/listaExercicios02.pdb

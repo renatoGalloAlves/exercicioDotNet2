@@ -1,0 +1,80 @@
+﻿using System;
+
+namespace listaExercicios02 {
+	class Exercicio01 {
+		static void Main(string[] args) {
+			decimal nota1 = 0, nota2 = 0, mediaFinal = 0;
+			bool valorValido = false;
+			do {
+				try {
+					Console.WriteLine("Por favor, informe a primeira nota do aluno:");
+					nota1 = Convert.ToDecimal(Console.ReadLine());
+					valorValido = true;
+					if {
+
+						Console.WriteLine("Ops! A nota não pode ser menor que 0 ou maior que 10.");
+						valorValido = false;
+					}
+				} catch (Exception) {
+					Console.WriteLine("Ops! Não é possível informar letras ou caracteres especiais.");
+					valorValido = false;
+				}
+			} while (!valorValido);
+			do {
+				try {
+					Console.WriteLine("Agora, informe a segunda nota:");
+					nota2 = Convert.ToDecimal(Console.ReadLine());
+					valorValido = true;
+					if (nota2 < 0 || nota2 > 10) {
+						Console.WriteLine("Ops! A nota não pode ser menor que 0 ou maior que 10.");
+						valorValido = false;
+					}
+				} catch (Exception) {
+					Console.WriteLine("Ops! Não é possível informar letras ou caracteres especiais.");
+					valorValido = false;
+				}
+			} while (!valorValido);
+			mediaFinal = (nota1 + nota2) / 2;
+
+			if (mediaFinal == 10) {
+				Console.WriteLine("Parabéns, média {0:F2}! Aprovação com louvor!", mediaFinal);
+			} else if (mediaFinal >= 7) {
+				Console.WriteLine("Parabéns, média {0:F2}! Aprovado(a)!", mediaFinal);
+			} else {
+				Console.WriteLine("Que pena, média {0:F2}. Reprovado(a)!", mediaFinal);
+			}
+		}
+	}
+}
+
+
+		//decimal nota1, nota2;
+
+		// 			Console.WriteLine("Bom Dia, Professora!!");
+
+		// 			Console.WriteLine("Favor entrar com Nota 1: " );
+		// 			string strNota1 = Console.ReadLine(); 
+
+		// 			Console.WriteLine("Favor entrar com Nota 2: ");
+		// 			string strNota2 = Console.ReadLine(); 
+
+		// 			decimal nota01 = Convert.ToDecimal(strNota1);
+		// 			decimal nota02 = Convert.ToDecimal(strNota2);
+
+		// 			decimal notaTotal = (nota01 + nota02) /2;
+
+		// 			Console.WriteLine("Sua media final é de : " + notaTotal);
+
+		// 			if(notaTotal == 10 ){
+		// 				Console.WriteLine("Aprovado com Distinção!!!");
+
+		// 			} else if ( notaTotal >= 7 && notaTotal <n 10 ){
+		//           Console.WriteLine("Aprovado!!!");
+
+		//         } else {
+		//           Console.WriteLine("Reprovado!!!");
+		//         }
+
+		// 		}
+		// 	}
+		// }
