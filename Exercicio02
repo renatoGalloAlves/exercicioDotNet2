@@ -4,9 +4,24 @@ namespace listaExercicios02
 {
     class Exercicio01
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+       static void Main(string[] args)
+		{
+			decimal numero1, numero2, numero3, menorNumero, maiorNumero;
+			
+			Console.WriteLine("Por favor, informe o primeiro número:");
+			numero1 = Convert.ToDecimal(Console.ReadLine());
+			
+			Console.WriteLine("Agora, informe o segundo número:");
+			numero2 = Convert.ToDecimal(Console.ReadLine());
+			
+			Console.WriteLine("E por último, digite o terceiro número:");
+			numero3 = Convert.ToDecimal(Console.ReadLine());
+			
+			menorNumero = Math.Min(numero1, Math.Min(numero2, numero3));
+			maiorNumero = Math.Max(numero1, Math.Max(numero2, numero3));
+			
+			Console.WriteLine("O menor número entre {0}, {1} e {2} é {3}.", numero1, numero2, numero3, menorNumero);
+			Console.WriteLine("O maior número entre {0}, {1} e {2} é {3}.", numero1, numero2, numero3, maiorNumero);
+		}
+	}
 }
