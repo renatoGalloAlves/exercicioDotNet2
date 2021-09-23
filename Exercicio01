@@ -48,33 +48,33 @@ namespace listaExercicios02 {
 }
 
 
-		//decimal nota1, nota2;
+//decimal nota1, nota2;
 
-		// 			Console.WriteLine("Bom Dia, Professora!!");
+// 			Console.WriteLine("Bom Dia, Professora!!");
 
-		// 			Console.WriteLine("Favor entrar com Nota 1: " );
-		// 			string strNota1 = Console.ReadLine(); 
+// 			Console.WriteLine("Favor entrar com Nota 1: " );
+// 			string strNota1 = Console.ReadLine(); 
 
-		// 			Console.WriteLine("Favor entrar com Nota 2: ");
-		// 			string strNota2 = Console.ReadLine(); 
+// 			Console.WriteLine("Favor entrar com Nota 2: ");
+// 			string strNota2 = Console.ReadLine(); 
 
-		// 			decimal nota01 = Convert.ToDecimal(strNota1);
-		// 			decimal nota02 = Convert.ToDecimal(strNota2);
+// 			decimal nota01 = Convert.ToDecimal(strNota1);
+// 			decimal nota02 = Convert.ToDecimal(strNota2);
 
-		// 			decimal notaTotal = (nota01 + nota02) /2;
+// 			decimal notaTotal = (nota01 + nota02) /2;
 
-		// 			Console.WriteLine("Sua media final é de : " + notaTotal);
+// 			Console.WriteLine("Sua media final é de : " + notaTotal);
 
-		// 			if(notaTotal == 10 ){
-		// 				Console.WriteLine("Aprovado com Distinção!!!");
+// 			if(notaTotal == 10 ){
+// 				Console.WriteLine("Aprovado com Distinção!!!");
 
-		// 			} else if ( notaTotal >= 7 && notaTotal <n 10 ){
-		//           Console.WriteLine("Aprovado!!!");
+// 			} else if ( notaTotal >= 7 && notaTotal <n 10 ){
+//           Console.WriteLine("Aprovado!!!");
 
-		//         } else {
-		//           Console.WriteLine("Reprovado!!!");
-		//         }
+//         } else {
+//           Console.WriteLine("Reprovado!!!");
+//         }
 
-		// 		}
-		// 	}
-		// }
+// 		}
+// 	}
+// }

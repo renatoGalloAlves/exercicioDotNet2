@@ -2,11 +2,42 @@
 
 namespace listaExercicios02
 {
-    class Exercicio01
+    class Exercicio06
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+		{
+			int dia;
+			
+			Console.WriteLine("Digite um número e saiba a qual dia da semana ele corresponde:");
+			dia = Convert.ToInt32(Console.ReadLine());
+			
+			switch (dia)
+			{
+				case 1:
+				Console.WriteLine("O número {0} corresponde a domingo.", dia);
+				break;
+				case 2:
+				Console.WriteLine("O número {0} corresponde a segunda-feira.", dia);
+				break;
+				case 3:
+				Console.WriteLine("O número {0} corresponde a terça-feira.", dia);
+				break;
+				case 4:
+				Console.WriteLine("O número {0} corresponde a quarta-feira.", dia);
+				break;
+				case 5:
+				Console.WriteLine("O número {0} corresponde a quinta-feira.", dia);
+				break;
+				case 6:
+				Console.WriteLine("O número {0} corresponde a sexta-feira.", dia);
+				break;
+				case 7:
+				Console.WriteLine("O número {0} corresponde a sábado.", dia);
+				break;
+				default:
+				Console.WriteLine("O número {0} não corresponde a nenhum dia da semana.", dia);
+				break;
+			}
+		}
+	}
 }
